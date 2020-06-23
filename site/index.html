@@ -5,10 +5,20 @@
 	<title>Test Website</title>
 </head>
 <body>
-	<h1>Learning from Coursera Course</h1>
-	<section><h2 style="color:red;">Week 1</h2></section>
-	<hr>
-	<article>
+	<h1>Learning from Coursera</h1>
+	<ul>
+		<li><a href="#week1">Week 1</a></li>
+	</ul>
+	<hr><hr><hr>
+	<section id="week1"><div style="font-size:22px;"><h2 style="color:red;">Week 1</h2>
+	<ul>
+					<li><a href="#resolve">Resolve</a></li>
+					<li><a href="#lec1to6">Lecture 1 to 6</a></li>
+					<li><a href="#lec7">Lecture 7 to 10</a></li>
+				</ul>
+			</div>
+				<hr><hr>
+	<article id="resolve" style="font-size:20px;">
 		<h3 style="color:blue;">Resolve</h3>
 		<div>
 			There was no resolve, I thought I wanted to learn web design and programming
@@ -16,29 +26,89 @@
 		so I decided to enroll this course
 	</div>
 	</article>
-	<article>
+	<article id="lec1to6" style="font-size:20px;">
 		<h3 style="color:blue;">Lecture 1 to 6</h3>
+		<ul>
+			<li>
 		<div>
 			Right now, at the moment of writing this page, I have completed through 
 			lecture 6 and thought I should update the index page.
 		</div>
+	</li>
+	<li>
 		<div>
 			This page shows that <br>HTML is the structure of the page,<br>
 			CSS implementing the styles,<br>
 			JavaScript for the behaviours which the page will react.
 			<nav>Eample page : <a href="site-example1.html">site-example1.html</a></nav>
 		</div><br>
+	</li><li>
 			<div>
 				This page shows that DOCTYPE can be written as doctype. Case doesn't matter.<br>
-				We should include html lang="en" to declare the overall language of the page.<br>
-				meta charset="utf-8" should be in the "head" tag.
-				And W3C validator to check if your html page is validate or acceptable.
+				We should include <span style="color:red;">&lt;html lang="en"&gt;</span> to declare the overall language of the page.<br>
+				<span style="color:red;">&lt;meta charset="utf-8"&gt;</span>should be in the <span style="color:red">&lt;head&gt;</span> tag.
+				And W3C validator to check if your html page is valid or not.
 				<nav>Eample page : <a href="site-example2.html">site-example2.html</a><br>
-					HTML validator : <a href="https://validator.w3.org">W3C</a></nav>
+					HTML validator : <a href="https://validator.w3.org" target="_blank" title="W3C">W3C</a></nav>
 		</div>
+	</li>
+	<li>
+		<p>This page(<a href="headings.html">Headings</a>) shows the levels of significance of heading tags.
+</ul>
 	</article>
+	<article id="lec7" style="font-size:20px;">
+		<h3 style="color:blue;">Lecture 7 to 10</h3>
+		<ul>
+		<li><a href="#lec7b">Lecture 7</a></li>
+							<li><a href="#lec8">Lecture 8</a></li>
+							<li><a href="#lec9">Lecture 9</a></li>
+							<li><a href="#lec10">Lecture 10</a></li>
+						</ul>
+						<hr>
+		<ul>
+			<li>
+		<p id="lec7b"><strong>Lecture 7</strong> was about listing.<br>
+		For unordered list, you have to use <span style="color:red;">&lt;ul&gt;&lt;/ul&gt;</span> tag and you have to use <span style="color:red;">&lt;li&gt;&lt;/li&gt;</span> in the &quot;ul&quot; tag or else it won't work. It's <span style="color:red">&lt;ol&&gt;&lt;/ol&gt;</span> for ordered list.
+	</p>
+</li>	
+		<li>
+			<p id="lec8">
+				<strong>Lecture 8</strong> was about character entities.<br>
+				It is about tags to use when you want to display certain characters that browser might render as part of the html tags.<br>
+				For example, if you want to display less than character &quot;&lt;&quot;, you have to type <span style="color:red;">&amp;lt;</span> and as well <span style="color:red;">&amp;gt;</span> for &quot;&gt;.quot;<br>
+				If you want to show &quot;&amp;&quot;, you have to type <span style="color:red;">&amp;amp;</span>.<br>
+				Check this page(<a href="entities.html">Entities</a>) and it's source for reference.
+			</p>
+		</li>
+		<li>
+			<p id="lec9">
+				<strong>Lecture 9</strong> was about creating links.<br>
+				You link another page with <span style="color:red">&lt;a href="link.html"&gt;Write something here&lt;/a&gt;</span>.<br>
+				You can write <span style="color:red">target="_blank"</span> in anchor(a) tag if you want the browser to open the link in a new tag or window.<br>
+				View this page(<a href="link.html">Links</a>) and it's source for more reference.
+			</p>
+		</li>
+		<li>
+			<p id="lec10">
+				<strong>Lecture 10</strong> was about putting images in html pages.<br>
+				<span style="color:red;">&lt;img src="blahblah.jpg"&gt;</span> to link an image to the page. You can also link images from other websites.<br>
+				It is good practice to define the dimensions of the image when you put up an image on your page.<br>
+				For example, <span style="color:red;">&lt;img src="https://i.kym-cdn.com/entries/icons/original/000/031/406/19ylf.jpg" height="256" width="411"&gt;</span> will bring you the following image.<br>
+				<img src="https://i.kym-cdn.com/entries/icons/original/000/031/406/19ylf.jpg" height="228" width="411" alt="jahy-sama-smiling"><br>
+				Because you defined the dimensions of the image, even though the link to the image is broken, the area for the image is reserved.<br>
+				<img src="https://i.kym-csdn.com/entries/icons/original/000/031/406/19ylf.jpg" height="228" width="411"><br>
+				You can also add <span style="color:red;">alt="jahy-sama-smiling"</span> to the &quot;img&quot; tag to describe the image
+				if the link is broken or for people with visual impairment.<br>
+				<img src="https://i.kym-cdbn.com/entries/icons/original/000/031/406/19ylf.jpg" width="411" height="228" alt="jahy-sama-smiling"><br>
+				View this page(<a href="images.html">Images</a>) and it's source for reference.
+			</p>
+		</li>
+</ul>
+	</article>
+</section>
 	<footer>
-		<a href="https://github.com/nsh-pine">My github</a>
+		<a href="https://github.com/nsh-pine" target="_blank" title="github">My github</a>
+		<p>nsh 2020 &copy; Copyright</p>
 	</footer>
 </body>
 </html>
