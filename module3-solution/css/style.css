@@ -1,0 +1,48 @@
+body{
+	font-family: 'Patrick Hand', cursive;
+}
+/* navbar */
+.brand{
+	text-transform:uppercase;
+}
+#navbarNav{
+	font-size:1.8em;
+}
+#nav-btn:hover, #nav-btn:active{
+	background-color:white;
+}
+.header2{
+	font-size:2.5em;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+/* #f8f9fa - bg-light color */
+.menu{
+	background-color:#CED4DA; /* light gray */
+	margin:0 auto 20px;
+	padding-bottom:10px;
+}
+@media(max-width:767px)
+{
+	#navbarNav{
+		text-align:center;
+		background-color:#ADB5BD; /* cadet blue crayola */ 
+	}
+	#navbarNav a{
+		text-decoration:none;
+		color:#343A40; /* gun metal */
+	}
+	#navbarNav li{
+		border:1px solid black;
+	}
+	#navbarNav li:nth-child(1),#navbarNav li:nth-child(2){
+		border-bottom:0;
+	}
+}
+@media(max-width:575px)
+{
+	.container-fluid .menu{
+		width:100%;
+		margin:0 12% 20px 12%;
+	}
+}
