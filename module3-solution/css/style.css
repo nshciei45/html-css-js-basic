@@ -1,6 +1,7 @@
 body{
 	font-family: 'Patrick Hand', cursive;
 }
+
 /* navbar */
 .brand{
 	text-transform:uppercase;
@@ -8,7 +9,10 @@ body{
 #navbarNav{
 	font-size:1.8em;
 }
-#nav-btn:hover, #nav-btn:active{
+#nav-btn{
+	background-color:#ADB5BD; /* cadet blue crayola */
+}
+#nav-btn:hover{
 	background-color:white;
 }
 .header2{
@@ -16,12 +20,20 @@ body{
 	margin-top:20px;
 	margin-bottom:25px;
 }
+/* end of navbar styles */
+
 /* #f8f9fa - bg-light color */
+
+/* main-content */
 .menu{
 	background-color:#CED4DA; /* light gray */
-	margin:0 auto 20px;
-	padding-bottom:10px;
+	font-size:1.2em;
+	padding:10px;
+	margin-bottom:20px;
 }
+/* end of main-content */
+
+
 @media(max-width:767px)
 {
 	#navbarNav{
