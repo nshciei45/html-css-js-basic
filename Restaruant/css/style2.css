@@ -1,0 +1,306 @@
+body{
+	font-family:'Oxygen Mono',monospace;
+	background-color:#F0B67F;/*peach puff #F9DBBD*/
+	/*old lavender #776274*/ /*middle yellow red #F0B67F*/
+}
+#certi{
+	color:orange;/* opal #ABC8C7*/
+	font-size:60%;
+	text-transform:uppercase;
+}
+#brand{
+	position:relative;
+}
+#certi span{
+	position:absolute;
+	left:69%;
+	top:68%;
+}
+#certi img{
+	position:absolute;
+	left:45%;
+	top:62%;
+}
+a{
+	text-decoration:none!important;
+}
+#navbarNav a:hover{
+	background-color:white;
+	color:#343a40;/*basically bg-dark*/
+	}
+#phone{
+	padding-top:8px;
+}
+#phone span{
+	text-align:right;
+}
+#phone div{
+	text-align:right;
+	color:#ABC8C7;
+}
+#navbar-button{
+	border:1px solid yellow;
+}
+#brand-name{
+	font-size:24px;
+}
+.icon{
+	display:block;
+	text-align:center;
+}
+#call-btn{
+	text-align:center;
+}
+#call-btn > a{
+	background-color:#A07178; /*copper rose #A07178*/ /*blue violet crayola #8367C7*/ 
+	color:#E8DB7D!important;	/*flax #E8DB7D*/ /*sonic sliver #726E75*/
+	font-size:3vw;
+	margin:4px 20px;
+	padding:4px 50px;
+	border:1px solid #231123;
+	border-radius:10px;
+}
+#deliver{
+	text-align:center;
+	text-transform:uppercase;
+}
+#main-content{
+	margin-top:25px;
+}
+.curve{
+	border-radius:5px;
+}
+#main-content .jumbotron{
+	padding:0;
+}
+#menu-tile,#specials-tile,#map-tile{
+	height:250px;
+	width:100%;
+	margin-bottom:15px;
+	border:2px solid black;
+	position:relative;
+	overflow:hidden;
+}
+#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+	box-shadow:0px 1px 5px 5px #E6CCBE; /*champagne pink #E6CCBE*/
+}
+#menu-tile{
+	background:url('../images/mlxg.jpg') no-repeat;
+	background-position:center;
+}
+#specials-tile{
+	background:url('../images/dumplings.jpg') no-repeat;
+	background-position:center;
+}
+#menu-tile span,#specials-tile span,#map-tile span{
+	position:absolute;
+	bottom:0;
+	width:100%;		/*text-align:center; won't work without this cause span only takes up necessary width*/
+	/*with this width:100%; it will take up 100% of the width of it's container*/
+	text-align:center;
+	background-color:black;
+	color:#C8CC92; /* sage #C8CC92 */
+	opacity:.8;
+	text-transform:uppercase;
+	font-size:1.5em;
+}
+/*.row section{
+	width:100%;
+	text-align:center;
+	border:2px solid white;
+	color:white;
+	background-color:black;
+}*/
+.card-footer{
+	background-color:#A07178; /*copper rose*/
+	color:white;
+	margin-top:30px;
+	padding-top:35px;
+	padding-bottom:30px;
+	border-top:0;
+}
+.card-footer div.row{
+	margin-bottom:25px;
+}
+#hours,#address{
+	line-height:2;
+}
+#hours > span,#address > span{
+	font-size:1.3em;
+}
+#address p{
+	color:#e0a458; /* earth yellow*/
+	font-size:.8em;
+	line-height:1.8;
+}
+#comments{
+	font-style:italic;
+}
+#comments p:nth-child(2){
+	margin-top:25px;
+}
+hr{
+	margin-top:20px;
+	margin-bottom:20px;
+	border:0;
+	border-top:1px solid white;
+}
+
+/* MENU-CATEGORIES */
+.category-tile{
+	position:relative;
+	border:2px solid black;
+	overflow:hidden;
+	width:200px;
+	height:200px;
+	margin:0 auto 15px auto;
+}
+.category-tile span{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align:center;
+	background-color:black;
+	opacity:.8;
+	text-transform:uppercase;
+	font-size:1.2em;
+}
+.category-tile:hover{
+	box-shadow:0px 1px 5px 5px #E6CCBE;
+}
+#menu-categories-title + div{
+	margin-bottom:50px;
+}
+
+/*single-category.html*/
+#sub-category{
+	margin-bottom:50px;
+}
+.menu-item-tile{
+	margin-bottom:25px;
+}
+.menu-item-tile hr{
+	width:80%;
+	border-top:1px solid black;
+}
+.menu-item-price{
+	font-size:1.1em;
+	text-align:right;
+	margin-top:-15px;
+	margin-right:-15px;
+}
+.menu-item-title{
+	font-size:24px;
+}
+.menu-item-photo{
+	position:relative;
+	border:2px solid black;
+	overflow:hidden;
+	padding:0;
+	margin-right:-15px;
+	margin-left:auto;
+	margin-bottom:20px;
+	max-width:250px;
+}
+.menu-item-photo div{
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:40%;
+	background-color:black;
+	color:yellow;
+	text-align:center;
+}
+.menu-item-description{
+	padding-right:30px;
+}
+h3.menu-item-title{
+	margin:0 0 10px;
+}
+.menu-item-detail{
+	font-style:italic;
+	font-size:.9em;
+}
+@media (min-width:479px) and (max-width:575px){
+	.col-sm2-6{
+		position:relative;
+		width:100%;
+		padding-left:15px;
+		padding-right:15px;
+		max-width:50%;
+		-ms-flex: 0 0 50%;
+    	flex: 0 0 50%;
+	}
+}
+@media (max-width:767px){
+	#brand-name{
+		font-size:5vw;
+	}
+	#certi{
+		font-size:2vw;
+	}
+	#certi img{
+		width:3vw;
+		height:3vw;
+		position:absolute;
+		top:62%;
+		left:0;
+	}
+	#certi span{
+		position:absolute;
+		left:24%;
+		top:63.5%;
+	}
+	.icon{
+		display:inline;
+	}
+	/*hand aligned*/
+	#menu-button{
+		margin-right:3px;
+	}
+	#about{
+		margin-right:3px;
+		margin-left:8px;
+	}
+	#award{
+		margin-right:3px;
+		margin-left:17px;
+	}
+	.menu-item{
+		text-align:center;
+	}
+	#phone{
+		display:none!important;
+	}
+
+	/*footer*/
+	.card-footer section{
+		text-align:center;
+		margin-bottom:35px;
+	}
+	.card-footer section hr{
+		width:50%;
+	}
+	.card-footer section:nth-child(3){
+		margin-bottom:0;
+	}
+
+	/*single-category.html*/
+	.menu-item-photo{
+		margin-right:auto;
+	}
+	.menu-item-price{
+		text-align:center;
+	}
+	.menu-item-description{
+		text-align:center;
+	}
+}
+@media (min-width:768px) and (max-width:991px)
+{
+
+}
+@media (max-width:992px){
+	
+}
