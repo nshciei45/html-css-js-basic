@@ -234,6 +234,9 @@ h3.menu-item-title{
 	}
 }
 @media (max-width:767px){
+	#navbarNav a:hover{
+		background-color:white;
+	}
 	#brand-name{
 		font-size:5vw;
 	}
