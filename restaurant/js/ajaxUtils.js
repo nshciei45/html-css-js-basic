@@ -22,7 +22,7 @@ ajaxUtils.sendGetRequest = function(requestURL, responseHandler, isJsonResponse)
 function handleResponse(request, responseHandler, isJsonResponse){
 		if((request.readyState==4) && (request.status==200)){
 			
-			if(isJsonResponse){
+			if(isJsonResponse==true){
 				responseHandler(JSON.parse(request.responseText));
 			}else {
 					console.log("JSON file not found");
