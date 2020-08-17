@@ -18,7 +18,7 @@ var dcUtils={};
 var homeHtml="snippets/home-snippet.html";
 var categoryHtml="snippets/category-snippet.html";
 var categoriesTitle="snippets/category-title-snippet.html";
-var categoriesData="http://davids-restaurant.herokuapp.com/categories.json";
+var categoriesData="https://davids-restaurant.herokuapp.com/categories.json";
 var menuItemsData="https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemHtml="snippets/menu-item-snippet.html";
 var menuItemsTitle="snippets/menu-title-snippet.html";
