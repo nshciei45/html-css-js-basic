@@ -16,7 +16,7 @@ ajaxUtils.sendGetRequest = function(requestURL, responseHandler, isJsonResponse)
 		handleResponse(request, responseHandler, isJsonResponse);
 	};
 	request.open("GET",requestURL,true);
-	request.send();
+	request.send(null);
 }
 
 function handleResponse(request, responseHandler, isJsonResponse){
