@@ -59,8 +59,24 @@
 		#description{
 			padding:15px;
 		}
+		.picalt1{
+			display:none;
+		}
 		@media(max-width:1110px){
 			#pp{
 				margin-bottom:0;
+			}
+		}
+		@media(min-width:1111px){
+			#pp{
+				height:139px;
+				width:139px;
+				margin-bottom:0;
+			}
+			.picalt1{
+				display:inline;
+			}
+			.picalt2{
+				display:none;
 			}
 		}
