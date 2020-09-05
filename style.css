@@ -13,6 +13,7 @@
 		}
 		.dummy-text{
 			padding:30px;
+			padding-top:10px;
 			line-height:2;
 			font-size:20px;
 			overflow:hidden;
@@ -49,5 +50,13 @@
 		}
 		#pp{
 			border:2px solid black;
-			background:url('web/images/kingucrimson.png');
+			height:154px;
+			margin:15px;
+			float:left;
+			clear:both;
+			padding-bottom:0;
+			/*background:url('https://github.com/nsh-pine/web/blob/master/images/kingucrimson.png?raw=true');*/
+		}
+		#description{
+			padding:15px;
 		}
