@@ -51,12 +51,16 @@
 		#pp{
 			border:2px solid black;
 			height:154px;
-			margin:15px;
+			width:154px;
 			float:left;
-			clear:both;
-			padding-bottom:0;
+			margin:15px;
 			/*background:url('https://github.com/nsh-pine/web/blob/master/images/kingucrimson.png?raw=true');*/
 		}
 		#description{
 			padding:15px;
+		}
+		@media(max-width:1110px){
+			#pp{
+				margin-bottom:0;
+			}
 		}
