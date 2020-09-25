@@ -1,0 +1,16 @@
+.btn3{
+	background-color:blue;
+	color:white;
+	position:absolute;
+	text-decoration:none;
+	right:0;
+	top:10%;
+	margin:0 100px;
+	font-size:20px;
+	border:1px solid black;
+	border-radius:5px;
+}
+.btn3:hover{
+	background-color:red;
+	color:black;
+}
