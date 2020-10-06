@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>main</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="js/script.js"></script>
-	<script src="js/ajaxUtils.js"></script>
+	<title>Repo1</title>
+	<script src="script.js"></script>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		html{
+			background:url(images/earth.jpg) no-repeat center fixed;
+			background-size:cover;
+		}
+		.text > a{
+			text-decoration:none;
+			color:white;
+		}
+		.text{
+			font-size:4.5vw;
+			position:fixed;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+		}
+		.container{
+			height:100vh;
+			/*background-color:rgb(0,23,65,.5);*/
+			position:relative;
+		}
+	</style>
 </head>
 <body>
-<div class="main">
-<!-- <h1>Hello</h1>
-<button><a href="https://nsh-pine.github.io/web/restaurant/index.html">click</a></button>
-<button id="btn2">click</button> -->
-			<aside class="dummy-text">
-				<div class="scroll">
-				<marquee direction="left" loop="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida risus eu ullamcorper cursus. Pellentesque vehicula tincidunt nisi, nec ornare massa tincidunt vel. Aliquam ullamcorper elit ut diam eleifend, eget pulvinar ante tempus. Nunc pharetra gravida nunc. Integer porta, ante quis volutpat interdum, augue risus aliquam nulla, a blandit nibh ipsum non velit. Fusce aliquam auctor nibh, sed feugiat enim commodo congue. Etiam sapien odio, tempus nec lacus ac, vehicula hendrerit dui. Aenean est ex, facilisis a nibh eget, dapibus auctor elit.</marquee></div>
-				<div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida risus eu ullamcorper cursus. Pellentesque vehicula tincidunt nisi, nec ornare massa tincidunt vel. Aliquam ullamcorper elit ut diam eleifend, eget pulvinar ante tempus. Nunc pharetra gravida nunc. Integer porta, ante quis volutpat interdum, augue risus aliquam nulla, a blandit nibh ipsum non velit. Fusce aliquam auctor nibh, sed feugiat enim commodo congue. Etiam sapien odio, tempus nec lacus ac, vehicula hendrerit dui. Aenean est ex, facilisis a nibh eget, dapibus auctor elit.Phasellus ultricies ultrices massa quis scelerisque. Aenean tincidunt et tellus et consequat. Pellentesque tincidunt nulla eu velit porttitor, vel pretium turpis lacinia. Proin sodales in sem cursus dignissim. Praesent placerat tristique ligula a blandit. In non volutpat quam, a porttitor arcu. Proin ut ligula facilisis, aliquam dui vel, bibendum leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor metus id sem euismod, ut finibus augue mattis. Nulla est nibh, molestie sit amet mattis et, condimentum sit amet odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisl rhoncus lorem elementum imperdiet. Morbi convallis scelerisque dui, quis bibendum turpis semper non. Phasellus ligula ipsum, lobortis sed urna non, ultricies finibus dolor. Cras blandit ex ipsum, sed dapibus sapien dapibus ac. Sed sit amet dictum ligula. Aliquam tempus lobortis nisi et mattis. Etiam non mi id lorem fermentum laoreet. Vivamus consectetur dui elit. Morbi tincidunt sem velit, a dictum nulla gravida non. Nam blandit, sapien non tempus laoreet, eros quam posuere nunc, in sodales augue ipsum at augue.Cras placerat sodales vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas a luctus orci. Integer sit amet urna egestas, venenatis tortor eget, auctor lacus. Suspendisse viverra arcu id tincidunt lobortis. Cras cursus pellentesque odio, non posuere est molestie ac. Curabitur ut nunc consectetur, suscipit odio eu, suscipit est. Aliquam convallis tellus id odio gravida mattis. Aliquam ac efficitur tellus, et dictum urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nisi mauris, pulvinar nec diam sed, viverra ullamcorper urna. Nulla posuere magna nec nisi iaculis, dictum gravida sem ullamcorper. Proin efficitur eu ligula a porttitor. Etiam suscipit vel augue ut elementum. Integer a efficitur nisl.Cras ut pretium felis. Etiam vehicula nisl ac sapien lobortis rhoncus. Ut vitae nisl est. Maecenas luctus turpis a pellentesque sodales. Vivamus sed velit turpis. Curabitur a accumsan lectus, sed porta nulla. In sollicitudin nisl sed massa consequat, sagittis maximus est blandit.
-			</div>
-			</aside>
+	<div class="container">
+<div class="text" onmouseover="change(this)" onmouseout="changeAgain(this)"><a href="https://jahreview.neocities.org/jah.html"><span style="color:black;">S</span>ite under construction</a></div>
 </div>
-<!-- <<<<<<< HEAD -->
-			<div class="another-main">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida risus eu ullamcorper cursus. Pellentesque vehicula tincidunt nisi, nec ornare massa tincidunt vel. Aliquam ullamcorper elit ut diam eleifend, eget pulvinar ante tempus. Nunc pharetra gravida nunc. Integer porta, ante quis volutpat interdum, augue risus aliquam nulla, a blandit nibh ipsum non velit. Fusce aliquam auctor nibh, sed feugiat enim commodo congue. Etiam sapien odio, tempus nec lacus ac, vehicula hendrerit dui. Aenean est ex, facilisis a nibh eget, dapibus auctor elit.Phasellus ultricies ultrices massa quis scelerisque. Aenean tincidunt et tellus et consequat. Pellentesque tincidunt nulla eu velit porttitor, vel pretium turpis lacinia. Proin sodales in sem cursus dignissim. Praesent placerat tristique ligula a blandit. In non volutpat quam, a porttitor arcu. Proin ut ligula facilisis, aliquam dui vel, bibendum leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor metus id sem euismod, ut finibus augue mattis. Nulla est nibh, molestie sit amet mattis et, condimentum sit amet odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisl rhoncus lorem elementum imperdiet. Morbi convallis scelerisque dui, quis bibendum turpis semper non. Phasellus ligula ipsum, lobortis sed urna non, ultricies finibus dolor. Cras blandit ex ipsum, sed dapibus sapien dapibus ac. Sed sit amet dictum ligula. Aliquam tempus lobortis nisi et mattis. Etiam non mi id lorem fermentum laoreet. Vivamus consectetur dui elit. Morbi tincidunt sem velit, a dictum nulla gravida non. Nam blandit, sapien non tempus laoreet, eros quam posuere nunc, in sodales augue ipsum at augue.Cras placerat sodales vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas a luctus orci. Integer sit amet urna egestas, venenatis tortor eget, auctor lacus. Suspendisse viverra arcu id tincidunt lobortis. Cras cursus pellentesque odio, non posuere est molestie ac. Curabitur ut nunc consectetur, suscipit odio eu, suscipit est. Aliquam convallis tellus id odio gravida mattis. Aliquam ac efficitur tellus, et dictum urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed nisi mauris, pulvinar nec diam sed, viverra ullamcorper urna. Nulla posuere magna nec nisi iaculis, dictum gravida sem ullamcorper. Proin efficitur eu ligula a porttitor. Etiam suscipit vel augue ut elementum. Integer a efficitur nisl.Cras ut pretium felis. Etiam vehicula nisl ac sapien lobortis rhoncus. Ut vitae nisl est. Maecenas luctus turpis a pellentesque sodales. Vivamus sed velit turpis. Curabitur a accumsan lectus, sed porta nulla. In sollicitudin nisl sed massa consequat, sagittis maximus est blandit.
-		</div>
-<!-- =======
->>>>>>> f367edf79dd96d657032cb7f37c24dde4bc429f5cd wenb -->
-		<div id="profile">
-			<div id="pp">
-				<img src="images/kiraq.png" class="picalt1" height="135" width="135" alt="profilepicture">
-				<img src="images/kiraq.png" class="picalt2" height="150" width="150" alt="profilepicture">
-			</div>
-			<div id="description">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida risus eu ullamcorper cursus. Pellentesque vehicula tincidunt nisi, nec ornare massa tincidunt vel. Aliquam ullamcorper elit ut diam eleifend, eget pulvinar ante tempus. Nunc pharetra gravida nunc. Integer porta, ante quis volutpat interdum, augue risus aliquam nulla, a blandit nibh ipsum non velit. Fusce aliquam auctor nibh, sed feugiat enim commodo congue. Etiam sapien odio, tempus nec lacus ac, vehicula hendrerit dui. Aenean est ex, facilisis a nibh eget, dapibus auctor elit.Phasellus ultricies ultrices massa quis scelerisque. Aenean tincidunt et tellus et consequat. Pellentesque tincidunt nulla eu velit porttitor, vel pretium turpis lacinia. Proin sodales in sem cursus dignissim. Praesent placerat tristique ligula a blandit. In non volutpat quam, a porttitor arcu. Proin ut ligula facilisis, aliquam dui vel, bibendum leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor metus id sem euismod, ut finibus augue mattis. Nulla est nibh, molestie sit amet mattis et, condimentum sit amet odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisl rhoncus lorem elementum imperdiet. Morbi convallis scelerisque dui, quis bibendum turpis semper non. Phasellus ligula ipsum, lobortis sed urna non, ultricies finibus dolor. 
-			</div>
-			</div>
+<!-- <div id="box">P</div> -->
 </body>
 </html>
